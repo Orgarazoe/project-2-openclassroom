@@ -1,0 +1,246 @@
+@font-face {
+    font-family: 'ralewaythin';
+    src: url('font/raleway-variablefont_wght-webfont.woff2') format('woff2'),
+         url('font/raleway-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: url('font/Raleway-Bold.woff2') format('woff2'),
+        url('font/Raleway-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+    
+/* taille de la page*/
+
+#Page{
+    width: 1440px;
+    height: 1884px;
+    margin: auto;
+}
+/*police d'écriture*/
+
+body {
+    font-family: 'ralewaythin';
+    font-family: 'Raleway';
+    
+}
+.titre{
+    font-size: 16px;
+}
+
+.info{
+    font-family: 'ralewaythin';
+    font-size: 13px;
+}
+   /*header*/
+
+.Logo
+{
+    padding-top: 35px;
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: auto;
+    width: 95px;
+    height: 45px;
+}
+
+
+
+ul.Navigation{
+    list-style-type: none;
+}
+nav{
+    position: absolute left;
+    font-family: 'ralewaythin';
+  display: flex;
+justify-content: flex-end;
+    margin-top: auto;
+    width: auto;
+    }
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    
+    border-top: 3px solid white;
+    padding-top: 2em;
+    margin-right: 15px;
+}
+
+nav a.lien
+{
+    font-size: 0.9em;
+    color: #181818;
+    text-decoration: none;
+}
+
+nav li:hover
+{
+    color: #2E40FF;
+    border-top: 3px solid #2E40FF;
+    border-top-width: thin;
+    display: flex;
+}
+nav a:hover
+{
+    color: #2E40FF;
+    display: flex;
+}
+p.inscription{
+    color: black;
+     position: absolute left;
+    font-family: 'ralewaythin';
+  display: flex;
+justify-content: flex-end;
+    margin-top: auto;
+    width: auto;;
+    text-decoration: none;
+}
+a.inscription{
+    text-decoration: none;
+    color: blue;
+    
+}
+    
+
+                       /*Filtre*/
+div.Filtre {
+    position: fixed;
+    color: black;
+    padding-left: 0px;
+    position: static;
+    font-size: 12px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+ justify-content:flex-start;
+}
+div.Filtre a {
+    color: #181818;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+    
+p.filtre{
+    padding-top: 7px;
+    align-items: flex-start;
+}
+.Economie{
+    display: flex;
+    left: 20000%;
+      border: 2px solid #ECE9E8;
+      align-items: center;
+      height: 25px;
+      width:  116px;
+  border-radius: 20px;
+    word-spacing: inherit;
+    text-align: center;
+    
+}
+.fa-money-bill-wave{
+    left: 29%;
+    text-align: center;
+    color: #2E40FF;
+    border: 8px solid #DEEBFF;
+    border-radius: 40px;
+    background: #DEEBFF;
+}
+
+.Familial{
+ display: flex;
+    left: 20000%;
+      border: 2px solid #ECE9E8;
+      align-items: center;
+      height: 25px;
+      width:  85px;
+  border-radius: 20px;
+    word-spacing: inherit;
+    text-align: center;
+}
+
+.fa-male{
+     color: #2E40FF;
+    border: 8px solid #DEEBFF;
+    border-radius: 1000000px;
+    background: #DEEBFF;
+}
+
+.Romantique{
+display: flex;
+    left: 20000%;
+      border: 2px solid #ECE9E8;
+      align-items: center;
+      height: 25px;
+      width:  116px;
+  border-radius: 20px;
+    word-spacing: inherit;
+    text-align: center;
+}
+
+.fa-heart{
+     color: #2E40FF;
+    border: 10px solid #DEEBFF;
+    border-radius: 40px;
+    background: #DEEBFF;
+}
+
+.Animaux{
+display: flex;
+    left: 20000%;
+      border: 2px solid #ECE9E8;
+      align-items: center;
+      height: 25px;
+      width:  150px;
+  border-radius: 20px;
+    word-spacing: inherit;
+    text-align: center;
+}
+
+.fa-dog{
+     color: #2E40FF;
+    border: 10px solid #DEEBFF;
+    border-radius: 40px;
+    background: #DEEBFF;
+}
+
+
+.fa-info-circle{
+    color:white;
+    border: 3px solid #F2F2F2;
+    border-radius: 200px;
+    background:#2E40FF; 
+}
+
+#site-search{
+    padding-left: 0px;
+    font-family: 'Raleway';
+    border: 2px solid #F2F2F2;
+    text-align: center;
+    height: 39px;
+}
+.fa-map-marker-alt{
+    text-transform: lowercase;
+    border: 10px solid #F2F2F2;
+    background: #F2F2F2;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.button{
+    padding-left: 0px;
+    color: aliceblue ; 
+    border: 10px solid #0065FC;
+    background: #0065FC;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
